@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=CryptoPro CSP Installer
+Exec=bash -c "cd `dirname %k`; command -v sudo && sudo ./install_gui.sh || su -c './install_gui.sh';"
+Terminal=true
+Type=Application
+
